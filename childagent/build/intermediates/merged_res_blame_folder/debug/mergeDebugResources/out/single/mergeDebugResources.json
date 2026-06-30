@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.xshield.childagent-debug-51:/layout_activity_setup.xml.flat",
+        "source": "com.example.xshield.childagent-main-53:/layout/activity_setup.xml"
+    },
+    {
+        "merged": "com.example.xshield.childagent-debug-51:/xml_device_admin.xml.flat",
+        "source": "com.example.xshield.childagent-main-53:/xml/device_admin.xml"
+    },
+    {
+        "merged": "com.example.xshield.childagent-debug-51:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.xshield.childagent-main-53:/xml/accessibility_service_config.xml"
+    }
+]

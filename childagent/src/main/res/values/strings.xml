@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">System Health Monitor</string>
+    <string name="notification_channel_name">System Monitor</string>
+    <string name="notification_title">System Health Monitor</string>
+    <string name="notification_text">Monitoring device performance</string>
+    <string name="title_childagent">Child Agent</string>
+    <string name="accessibility_service_description">Remote Interaction System for Xshield. Allows the parent app to control this device.</string>
+</resources>

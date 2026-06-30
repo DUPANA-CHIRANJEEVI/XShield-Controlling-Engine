@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_teal">#00A8B5</color>
+    <color name="background_dark">#1A1D26</color>
+    <color name="card_surface">#212833</color>
+    <color name="green_active">#5CB85C</color>
+    <color name="text_muted">#A0A5B0</color>
+    <color name="text_white">#FFFFFF</color>
+    <string name="accessibility_service_description">Remote Interaction System for Xshield. Allows the parent app to control this device.</string>
+    <string name="app_name">System Health Monitor</string>
+    <string name="firebase_database_url" translatable="false">https://xshield-live-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">120033939287</string>
+    <string name="google_api_key" translatable="false">AIzaSyD6WTHx1lLLc5z2oMPEyjSj53b1BC0d0ew</string>
+    <string name="google_app_id" translatable="false">1:120033939287:android:ec9bfc547331b90d943812</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD6WTHx1lLLc5z2oMPEyjSj53b1BC0d0ew</string>
+    <string name="google_storage_bucket" translatable="false">xshield-live.firebasestorage.app</string>
+    <string name="notification_channel_name">System Monitor</string>
+    <string name="notification_text">Monitoring device performance</string>
+    <string name="notification_title">System Health Monitor</string>
+    <string name="project_id" translatable="false">xshield-live</string>
+    <string name="title_childagent">Child Agent</string>
+    <style name="Theme.AppCompat.Transparent.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.ChildAgent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_teal</item>
+        <item name="colorPrimaryDark">@color/background_dark</item>
+        <item name="colorAccent">@color/accent_teal</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#1A1D26</color>
+    <color name="accent_teal">#00A8B5</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_muted">#A0A5B0</color>
+    <color name="green_active">#5CB85C</color>
+    <color name="card_surface">#212833</color>
+</resources>

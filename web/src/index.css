@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-darkBg: #F4F7FA;
+  --color-darkSurf: #FFFFFF;
+  --color-darkBorder: #E2E8F0;
+  --color-brandCyan: #0088FF;
+  --color-brandTeal: #00BFA5;
+  --color-brandRed: #FF5252;
+  --color-brandBlue: #2979FF;
+  --color-mutedText: #64748B;
+  
+  --font-sans: 'Outfit', 'Inter', 'system-ui', 'sans-serif';
+}
+
+body {
+  background-color: var(--color-darkBg);
+  color: #0F172A;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F7FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0088FF;
+}
+
+/* Leaflet maps custom styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #F4F7FA !important;
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 136, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 136, 255, 0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}

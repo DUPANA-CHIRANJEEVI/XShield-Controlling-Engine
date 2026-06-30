@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1D26"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <!-- Shield / Lock Icon -->
+    <ImageView
+        android:id="@+id/shieldIcon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@android:drawable/ic_lock_lock"
+        android:tint="#00A8B5"
+        android:layout_marginBottom="8dp" />
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Shield"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Sub-title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child Safety Protection"
+        android:textColor="#A0A5B0"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="40dp" />
+
+    <!-- ===========================
+         THE ONE BIG BUTTON
+         =========================== -->
+    <Button
+        android:id="@+id/activateButton"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="✓  ACTIVATE FAMILY SHIELD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00A8B5"
+        android:stateListAnimator="@null"
+        android:elevation="4dp" />
+
+    <!-- Status message below button -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap the button above to set up protection"
+        android:textColor="#A0A5B0"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <!-- Progress bar (shown while activating) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#00A8B5"
+        android:layout_marginTop="12dp"
+        android:visibility="gone" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2C3240"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/divider"
+        android:visibility="gone" />
+
+    <!-- Pairing Code Section (visible after activation) -->
+    <LinearLayout
+        android:id="@+id/pairingSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#212833"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parent Pairing Code"
+            android:textColor="#A0A5B0"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.12" />
+
+        <TextView
+            android:id="@+id/pairingCodeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="------"
+            android:textColor="#00A8B5"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="6dp"
+            android:letterSpacing="0.2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give this code to parent to link this device"
+            android:textColor="#A0A5B0"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+    <!-- Active Status Badge (visible after activation) -->
+    <LinearLayout
+        android:id="@+id/activeBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="#5CB85C" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Protection Active — Running in Background"
+            android:textColor="#5CB85C"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://xshield-live-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">120033939287</string>
+    <string name="google_api_key" translatable="false">AIzaSyD6WTHx1lLLc5z2oMPEyjSj53b1BC0d0ew</string>
+    <string name="google_app_id" translatable="false">1:120033939287:android:ec9bfc547331b90d943812</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD6WTHx1lLLc5z2oMPEyjSj53b1BC0d0ew</string>
+    <string name="google_storage_bucket" translatable="false">xshield-live.firebasestorage.app</string>
+    <string name="project_id" translatable="false">xshield-live</string>
+</resources>
